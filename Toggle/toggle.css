@@ -1,0 +1,44 @@
+.container{
+    padding: 10px;
+}
+.toggle{
+    position: relative;
+    width: 50px;
+    height: 25px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: .4s;
+}
+
+.circle{
+    position: absolute;
+    left: 0;
+    width: 25px;
+    height: 25px;
+    border-radius: 15px;
+    background-color: rgb(25, 189, 60);
+    transition: .4s;
+}
+
+.text{
+    font-size: 20px;
+}
+
+.active{
+    border-color: blue;
+}
+
+.active .circle{
+    left: 100%;
+    transform: translateX(-100%);
+    transition: .4s;
+    background-color: blue;
+}
+
+.active .text{
+    color: black;
+}
