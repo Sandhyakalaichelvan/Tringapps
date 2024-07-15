@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 20px;
+        }
+
+        label {
+            padding-left: 0;
+        }
+
+        .container {
+            width: 98%;
+            margin: auto;
+            padding: 10px;
+            border: none;
+            margin-bottom: 20px;
+            font-size: 10px;
+            page-break-inside: avoid;
+        }
+
+        .container.odd {
+            background-color: rgb(255, 255, 255);
+        }
+
+        .container.even {
+            background-color: rgb(236, 236, 236);
+        }
+
+        .font {
+            color: rgb(126, 125, 125);
+        }
+
+        .header-table, .main-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .header-table td, .main-table td {
+            padding: 3px;
+        }
+
+        .header-table td a {
+            color: blue;
+            text-decoration: underline;
+        }
+
+        input[type="text"] {
+            width: 100px;
+            height: 16px;
+            border: 1px solid rgb(147, 147, 147);
+            text-align: center;
+        }
+
+        .comments {
+            margin-top: 10px;
+        }
+
+        .comments label, .footer label {
+            font-weight: bold;
+        }
+
+        .footer {
+            margin-top: 20px;
+            display: flex;
+            border-bottom: 1px solid rgb(172, 172, 172);
+            padding-bottom: 10px;
+        }
+
+        .comments p {
+            display: inline;
+            border-bottom: 1px solid rgb(147, 147, 147);
+            width: 100%;
+        }
+
+        .line1 {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .header-table tr:not(:first-child) {
+            border-top: 1px solid rgb(172, 172, 172);
+        }
+
+        .header-table tr:last-child {
+            border-bottom: 1px solid rgb(172, 172, 172);
+        }
+
+        .office {
+            padding-left: 20%;
+            color: rgb(126, 125, 125);
+        }
+
+        .corr {
+            padding-left: 50%;
+            color: rgb(126, 125, 125);
+        }
+        
+        .wopo-number {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container odd">
+        <table class="header-table">
+            <tr class="line1">
+                <td class="wopo-number">W200847</td>
+                <td></td>
+                <td>2024-01-31 00:00:00</td>
+                <td></td>
+                <td>R02515</td>
+                <td></td>
+                <td>Work Order</td>
+            </tr>
+            <tr>
+                <td>ServiceTypeExample</td>
+                <td></td>
+                <td></td>
+                <td>ACTIVE PRODUCER</td>
+                <td></td>
+                <td class="font">App Manage</td>
+                <td><input type="text" value="None"></td>
+            </tr>
+        </table>
+        <table class="main-table">
+            <tr>
+                <td></td>
+                <td class="font">Paid Time</td>
+                <td><input type="text" value="5.0"></td>
+                <td class="font">Time In:</td>
+                <td><input type="text" value="2024-05-15 07:00:00"></td>
+                <td class="font">Time Out:</td>
+                <td><input type="text" value="2024-05-15 12:00:00"></td>
+                <td>John Doe, Jane Smith</td>
+            </tr>
+            <tr>
+                <td>Employee</td>
+                <td class="font">Billable Time</td>
+                <td><input type="text" value="4.5"></td>
+                <td class="font">Unpaid Lunch</td>
+                <td><input type="text" value="0.5"></td>
+                <td class="font">Non Billable Time</td>
+                <td><input type="text" value="0.0"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>BACK04</td>
+                <td></td>
+                <td></td>
+                <td class="font">Unpaid Break</td>
+                <td><input type="text" value="0.0"></td>
+                <td class="font">Paid Break 1 Time</td>
+                <td><input type="text" value="0.0"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="font">Crew</td>
+                <td><input type="text" value="2"></td>
+                <td class="font">Equip Tran?</td>
+                <td><input type="text" value="False"></td>
+                <td class="font">Paid Break 2 Time</td>
+                <td><input type="text" value="0.0"></td>
+                <td></td>
+            </tr>
+            <tr class="font">
+                <td>Job Type:</td>
+                <td></td>
+                <td></td>
+                <td>Complete</td>
+            </tr>
+            <tr class="font">
+                <td>Job Status:</td>
+                <td></td>
+                <td>Tub /Rod Info?</td>
+                <td><input type="text" value="False"></td>
+                <td>Fishing Tool</td>
+                <td><input type="text" value="0.0"></td>
+                <td>Tong Trip</td>
+                <td><input type="text" value="2"></td>
+                <td></td>
+            </tr>
+            <tr class="font">
+                <td>Day#</td>
+                <td></td>
+                <td>Manager</td>
+            </tr>
+            <tr class="font">
+                <td>NB Comments</td>
+            </tr>
+        </table>
+        <div class="comments">
+            <label class="font">Comments</label>
+            <p>Non-billable comments example</p>
+        </div>
+        <div class="footer">
+            <label class="office">Office</label>
+            <label class="corr">Corrections Made</label>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
