@@ -1,0 +1,46 @@
+.btn-success {
+  width: 100%; /* Initially occupy full width */
+  margin-left: 0; /* Remove the initial margin */
+
+}
+
+
+
+#role-select:focus,
+#organization-select:focus {
+
+  padding-bottom: 0px;
+  background-color: aquamarine;
+  margin: 0;
+  margin-left:1px;
+  padding: 0%;
+
+}
+.close-SendInvite {
+  position:static;
+  top: 0;
+  right: 0;
+  margin-left: 27rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.submit {
+  background-color: #299689 ;
+}
+.submit:hover {
+  background-color: #227d72 ;
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 500px;
+    margin-bottom: 250px; /* Set maximum width for the container */
+  }
+
+  .btn-success {
+    width: 100%; /* Set button width to a percentage of the container width */
+
+  }
+}
+
+

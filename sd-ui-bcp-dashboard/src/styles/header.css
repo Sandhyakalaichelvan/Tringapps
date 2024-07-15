@@ -1,0 +1,16 @@
+.logo-container {
+  display: inline-block; /* Ensure the link container takes only the necessary space */
+}
+
+.logo {
+  width: 80px;
+  height: 50px;
+  padding: 25px;
+  background-size: cover; /* Ensure the background image covers the entire area */
+  background-position: center; /* Center the background image */
+  margin-left: 10px;
+}
+.logo
+{ 
+  background-image: url('../../public/images/bcp2.png'); 
+}

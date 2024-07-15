@@ -1,0 +1,97 @@
+.User-2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Render-rr1 {
+    width: 70%;
+    height: 95%;
+    background-color: #dedddd; /* White background */
+    /* padding: 20px; */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Drop shadow effect */
+    /* padding-top: 20px; */
+    /* background-color: aqua; */
+    
+  }
+
+  .Render-cc1 {
+    margin-left: 30px;
+    padding-bottom:50px;
+    box-shadow: 0 2px 4px rgba(2, 2, 2, 0.1); /* Drop shadow effect */
+  /* background-color: red; */
+  max-width: 1000px;
+  max-height: 500px;
+  background-color: white;
+  border-radius: 10px;
+    
+  }
+
+  .table-response.render1 {
+    max-height: min-content;
+    overflow-y: auto;
+    margin-right: 30px;
+    height: 400px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Drop shadow effect */
+    max-width: 1000px;
+  }
+
+  .h6 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    max-height: 30px;
+    padding-bottom: 10px;
+    padding-left:30px;
+    padding-top:70px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); Drop shadow effect */
+    /* background-color: #fff; */
+
+  }
+
+
+  .close-icon1{
+    padding-bottom: 30px;
+  }
+
+  .sticky-header th,
+  .sticky-column {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #fff;
+  }
+
+  .sticky-column {
+    left: 0;
+  }
+
+  .text-right {
+    text-align: right;
+  }
+
+  .Deactivate{
+    width: 50px;
+    padding-right: 70px;
+    margin-right: 20px;
+  }
+  .action-button {
+    position: sticky;
+    right: 0;
+    z-index: 1;
+    margin-right: 0px;
+    width: 40px;
+  }
+
+
+
+
+
+
+

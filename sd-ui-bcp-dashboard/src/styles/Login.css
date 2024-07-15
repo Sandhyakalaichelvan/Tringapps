@@ -1,0 +1,108 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+}
+body{
+  background-color: rgb(255, 255, 255);
+
+}
+
+.form-control {
+  border: 2px solid #333; 
+  border-radius: 0.25rem; 
+  margin-top: 0px;
+  width:96%;
+
+}
+
+.con {
+  width: 300px;
+  height: 390px;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 50px; /* Adjust this value to move the container downwards */
+}
+
+@media (max-width: 576px) {
+  .con {
+    width: 90%;
+    margin: auto;
+    margin-top: 50px; /* Adjust this value for smaller screens */
+  }
+}
+
+
+.form-control {
+  border: 2px solid #333; 
+  border-radius: 0.25rem; 
+  margin-top: 0px;
+}
+
+.text-left a {
+  text-decoration: none;
+  color: rgb(8, 8, 8);
+}
+
+.forgot-password-link{
+  font-weight: 550;
+}
+
+.forgot-password-link:hover {
+  text-decoration: underline;
+}
+
+
+.display-6 {
+  font-size: 1.75rem;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+}
+
+.signup {
+  padding-top: 25px;
+  font-weight: lighter;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+.signup a{
+  text-decoration: none;
+  color: #299689;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.login{
+   background-color: #299689;
+   width: 250px;
+   border: #299689;
+   margin-left: -3px;
+}
+
+.login:hover {
+  background-color: #1d7d72;
+}
+
+p{
+  text-align: center;
+  font-size:smaller;
+  color: gray;
+}
+
+.error {
+  border-color: red !important;
+}
+
+.text-right{
+  font-weight: 500;
+
+  
+}
+
+.MuiSvgIcon-root:hover {
+  cursor: pointer;
+}
+
+
+

@@ -1,0 +1,63 @@
+.customDropdown .dropdown-menu {
+    min-width: auto; /* Resetting minimum width */
+    white-space: nowrap; /* Preventing line breaks */
+  }
+  
+  .username-container {
+    color: #007bff;
+    margin: 0;
+    padding: 0;
+    margin-bottom: -3px;
+  }
+
+  .role-container {
+    color: rgb(255, 119, 119);
+    font-size: 11px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .access-container{
+    display: block; 
+}
+ 
+  
+
+  .dropdown-list{
+display: flex;
+
+  }
+
+  .Menu{
+  }
+  .dropdown{
+ max-width: 200px;
+  }
+
+  .username-container{
+    color: #007bff;
+  }
+  .username-container,
+  .customDropdown {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+  }
+
+  .username {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #007bff;
+  }
+
+  .dropdown {
+    padding-left: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+    cursor: pointer;
+  }
+
+
+ 

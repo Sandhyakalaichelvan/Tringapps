@@ -1,0 +1,55 @@
+/* .customSnackbar {
+    background-color: transparent !important;
+  }
+  
+  .customSnackbar .error{
+    background-color: red !important;
+  } 
+  .customSnackbar .success{
+    background-color: green !important;
+  }  */
+  /* .customSnackbar .MuiSnackbarContent-root {
+    background-color: #1a7f12 ; 
+    color: rgb(253, 253, 253) ; 
+    width:1000px;
+    
+  }
+
+.MuiSnackbarContent-action {
+    justify-content: flex-start;
+  }
+  
+  .MuiSnackbarContent-action .MuiIconButton-root {
+    margin-right: auto;
+  }
+  
+  Adjust close button width
+  .MuiSnackbarContent-action .MuiIconButton-root {
+    width: 32px;
+    color: rgb(255, 255, 255);
+  } */
+  
+  .customSnackbar.red {
+    /* Additional styles for the red snackbar, if needed */
+  }
+  
+  .customSnackbar.green {
+    /* Additional styles for the green snackbar, if needed */
+  }
+  
+  .MuiSnackbarContent-action {
+    justify-content: flex-start;
+  }
+  
+  .MuiSnackbarContent-action .MuiIconButton-root {
+    margin-right: auto;
+    width: 32px; /* Adjust close button width if desired */
+    color: inherit; /* Inherit color from parent */
+  }
+  
+    .customSnackbar .MuiSnackbarContent-root {
+    /* background-color: #1a7f12 ;  */
+    /* color: rgb(253, 253, 253) ;  */
+    width:1000px;
+    
+  }

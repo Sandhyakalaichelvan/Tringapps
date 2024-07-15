@@ -1,0 +1,147 @@
+.mt-10{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+  }
+.grid {
+    width:100vh;
+    font-size: small;
+    padding-left: 20px;
+   border: none;
+   border-radius: 10px;
+   top: 0%;
+   
+}
+ .grid tr th{
+    width: 190px;
+ }
+
+.table-container{
+    height: 500px;
+
+}
+
+.close-Users {
+  position:static;
+  top: 0;
+  right: 0;
+  margin-left: 65rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.deactivated-row:hover {
+    background: inherit;
+    background-color:inherit;
+    cursor: not-allowed !important;
+    }
+  
+
+
+    tr.deactivated-row td {
+        opacity: 0.5;
+        background: #ebe6e6;
+        
+    }
+  
+    .User{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 23px;
+        
+    }
+    
+    .Usersearch{
+      border-radius: 5px;
+      height: 35px;
+      border: 1px solid black;
+
+
+    }
+
+    .Usersearch::placeholder{
+      padding-left: 10px;
+    }
+
+
+    .success-message{
+        color: green;
+        text-align: center;
+    }
+
+
+.grid {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+
+  
+  .Render-Row1 {
+    max-width: 100%;
+    width: 860px;
+  }
+ 
+ 
+  @media (max-width: 768px) {
+    .grid {
+      /* width: 100%; */
+      overflow-x: auto; 
+    }
+  }
+  
+ 
+
+  .success-message {
+    color: green;
+    text-align: center;
+  }
+  
+  .sticky-header th {
+    position: sticky;
+    top: -1px;
+    background-color: #ffffff;
+    z-index: 1;
+    text-align: center;
+}
+.action-headers {
+  text-align: center !important;
+}
+
+.table-container {
+    /* box-shadow:none; */
+    border-radius: 8px;
+    margin-top: 20px;
+    padding: 0;
+    /* width: 1000px; */
+}  
+td, th {
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .Role{
+    width: 52px;
+    /* padding-right: 10px; */
+  }
+
+
+
+  .action-buttons {
+    position: sticky;
+    top: 0;
+    background-color:unset; /* Ensure visibility over the table */
+    z-index: 2; 
+  }
+  
+  .close-user{
+position: relative;
+  }
+
+  .close-Users{
+ position: absolute;
+ padding-top: 10px;
+ padding-right: 10px;
+  }

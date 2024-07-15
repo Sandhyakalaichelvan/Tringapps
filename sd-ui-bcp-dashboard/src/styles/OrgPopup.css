@@ -1,0 +1,236 @@
+/* Add the following CSS to your existing stylesheet */
+
+
+.Usercount{
+  display: flex;
+  justify-content: space-evenly;
+  padding-right: 50%;
+}
+
+.orgname{
+  width: 40px;
+ 
+}
+.slash{
+  width: 100px;
+  color: gray;
+  padding-left: 30px;
+
+
+}
+
+.count{
+  width: 40px;
+  padding-left: 20px;
+  color: #959292;
+}
+
+.org-name-header th {
+  width: 80%; 
+  text-align: left;
+}
+
+.action-header {
+  width: 40%; /* Adjust the width of the Action column */
+}
+
+.grid tr th {
+  width: none;
+}
+
+
+.table {
+  width: 100%;
+}
+
+.table-container {
+  height: 500px;
+}
+
+/* Apply responsive styles for smaller screens */
+@media (max-width: 768px) {
+  /* Enable horizontal scrolling for smaller screens */
+  .table {
+    overflow-x: auto;
+
+  }
+}
+.company-header {
+  text-align: left !important;
+}
+.close-org {
+  position:static;
+  top: 0;
+  right: 0;
+  margin-left: 50rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.error-message {
+  color: brown;
+  text-align: center;
+}
+
+.action-buttons {
+  position: sticky;
+  top: 0;
+  background-color: white; /* Ensure visibility over the table */
+  z-index: 2; /* Ensure it's above the table */
+}
+
+@media (max-width: 768px) {
+  /* Adjust the width of the table */
+  .table {
+    width: 100%;
+  }
+  
+  /* Enable horizontal scrolling for smaller screens */
+  .table-container {
+  }
+}
+
+.editSave {
+  display: flex;
+  justify-content: space-around;
+  height: 32px;
+  padding-top: 10px;
+  padding-left: 16px;
+}
+
+
+.action-buttons {
+  position: sticky;
+  top: 0;
+  background-color: white; /* Ensure visibility over the table */
+  z-index: 2; /* Ensure it's above the table */
+  background: none;
+}
+
+
+.element {
+  width: 1000px;
+
+}
+table{
+  box-sizing:content-box;
+
+}
+
+
+.company_name{
+  display: flex;
+  justify-content:space-evenly;
+  
+}
+.orgname{
+  width: 50px;
+}
+
+.OrgIn {
+  margin-left: -5px;
+  border: 1px solid black;
+  width: 562px;
+  /* padding: 0px; */
+  height: 37px;
+  margin-bottom: 3px;
+  /* border-radius: 4px; */
+  padding-left: 30px;
+  margin: -5px;
+  margin-top: -7px;
+  border-color: #e3dfdf;
+  position: absolute;
+  right: 39.5%;
+  
+}
+
+.addCompany{
+
+    margin-left: 30px;
+    border: none;
+    width: 562px;
+    /* padding: 0px; */
+    height: 37px;
+    margin-bottom: 3px;
+    /* border-radius: 4px; */
+    padding-left: 30px;
+    margin: -5px;
+    margin-top: -7px;
+    border: 1px solid #d9d9d9;
+    position: absolute;
+    right: 39.5%;
+}
+
+.OrgIn::placeholder{
+  padding-left: 10px;
+}
+
+.OrgHead{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 10px;
+}
+
+td{
+  margin-top:6px;
+}
+.table td {
+  padding: 0px;
+  text-align: center;
+  height: 0px;
+  font-size: small;
+  padding-left: 0px;
+  padding-top: 7px;
+  margin-top: 6px;
+  border: none;
+}
+
+.action-width{
+  min-width: 100px;
+
+}
+
+.table-container th {
+  border: none;
+  /* padding: 8px; */
+}
+
+.editSave {
+  display: flex;
+  justify-content: space-around;
+  height: 32px;
+  padding-top: 0px;
+  /* padding-left: 16px; */
+  height: 30px;
+}
+
+
+.action-headers{
+  padding-left: 200px;
+}
+
+.closeIcon{
+  position: relative;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+.close-org{
+  position: absolute;
+ 
+
+}
+
+@media (max-width: 1135px) {
+  .OrgIn,
+  .addCompany {
+    width: 50%;
+    left: 14.5%;
+  }
+}
+
+.table {
+  min-width: 100%;
+  /* width: max-content; */
+  border-collapse: collapse;
+}

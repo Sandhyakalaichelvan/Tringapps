@@ -1,0 +1,30 @@
+
+.dropdown-toggle{
+    align-content: center;
+
+}
+
+.Upload-Form{
+    display: flex;
+    flex-direction: row ;
+    /* padding-left: 0px; */
+}
+
+.dropdown-Form{
+    padding-left: 0px;
+    width: 35px;
+}
+
+.dropdown-Form .dropdown-menu {
+    margin-top: 0; /* Remove default top margin */
+    margin-right: 400px;
+}
+  
+
+.menu-drop {
+    /* min-width: 100px; */
+    margin-left: -60px;
+    margin-top: 40px;
+    padding: 11px;
+   
+}

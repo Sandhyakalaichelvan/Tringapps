@@ -1,0 +1,53 @@
+
+.input-field {
+  border: 1px solid #312d2d;
+  /* transition: border-color 0.3s ease-in-out; */
+}
+
+.input-field:focus {
+
+  border-color: transparent; /* Set border color to transparent */
+}
+.input-field:hover{
+  border-color: transparent; /* Set border color to transparent */
+
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  /* font-family: 'Times New Roman', Times, serif; */
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+.container {
+  font-family: 'Roboto', sans-serif;
+  width: 90%;
+  max-width: 400px; /* Set maximum width */
+  height: auto;
+  margin: auto; /* Center the container horizontally */
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #f8f9fa; /* Set background color */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+
+.signup{
+  font-size: 1.75rem; 
+  font-size:larger;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+
+}
+
+
+
