@@ -1,0 +1,34 @@
+.container{
+    font-family: sans-serif;
+    display: flex;
+    gap: 30px;
+}
+
+.container > .column{
+    min-height: 550px;
+    margin: 10px;
+}
+.column{
+    flex-basis: 20%;
+    background: #f0efef;
+    min-height: 26vh;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1)
+}
+.column h1{
+    /* text-align: center; */
+    font-size: 19px;
+    margin: 0;
+}
+.card{
+    background: #fff;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 11px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1)}
+.invisible{
+    display: none;
+}

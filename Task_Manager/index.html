@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="index.css"> 
+</head>
+<body>
+    <div class="container">
+        <div class="column" id="todo-column">
+            <h1>To do</h1>
+            <hr>
+        </div>
+        <div class="column" id="in-progress-column">
+            <h1>In progress</h1>
+            <hr>
+        </div>
+        <div class="column" id="in-review-column">
+            <h1>In-review</h1>
+            <hr>
+        </div>
+        <div class="column" id="completed-column">
+            <h1>Completed</h1>
+            <hr>    
+        </div>
+    </div>
+    <script src="dragAndDrop.js"></script>
+    <script>
+        DragAndDropModule.drag();
+    </script>
+</body>
+</html>
