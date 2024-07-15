@@ -1,0 +1,6 @@
+C:\Users\Sandhya\source\repos\WindowsServiceFetcher\WindowsServiceFetcher\bin\Debug\WindowsServiceFetcher.dll
+C:\Users\Sandhya\source\repos\WindowsServiceFetcher\WindowsServiceFetcher\bin\Debug\WindowsServiceFetcher.pdb
+C:\Users\Sandhya\source\repos\WindowsServiceFetcher\WindowsServiceFetcher\obj\Debug\WindowsServiceFetcher.csproj.AssemblyReference.cache
+C:\Users\Sandhya\source\repos\WindowsServiceFetcher\WindowsServiceFetcher\obj\Debug\WindowsServiceFetcher.csproj.CoreCompileInputs.cache
+C:\Users\Sandhya\source\repos\WindowsServiceFetcher\WindowsServiceFetcher\obj\Debug\WindowsServiceFetcher.dll
+C:\Users\Sandhya\source\repos\WindowsServiceFetcher\WindowsServiceFetcher\obj\Debug\WindowsServiceFetcher.pdb
